@@ -1,0 +1,149 @@
+body{
+  display:flex;
+  flex-direction: column;
+}
+header{
+  display:flex;
+  flex-direction:column;
+
+}
+main{
+  display:flex;
+  flex-grow: 1;
+}
+.header-menu{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  background:#3B444B;
+  flex:0 0 50px;
+  align-items:center;
+}
+.header-menu a{
+  text-decoration: none;
+  color:white;
+  font-size:25px;
+}
+.menu-item:active{
+  background:white;
+}
+.menu-item:hover{
+  background:red;
+}
+
+.menu-item{
+	text-decoration: none;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  min-height:50px;
+
+}
+main{
+  display:flex;
+  flex-direction: row;
+  background:#FDF5E6;
+  text-align: center;
+  flex:1;
+  min-height:1000px;
+}
+.content{
+  flex:1;
+
+}
+.column{
+  flex:0 0 25%;
+}
+footer{
+  background:#3B444B;
+  color:white;
+  font-size:20px;
+  flex: 0 0 100%;
+  text-align:center;
+  min-height:50px;
+}
+.image-box{
+  background:url("2015-08-26 09.01.05.jpg") no-repeat;
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:200px;
+  background-size: cover;
+  background-clip:content-box;
+}
+.name{
+  display:flex;
+  background:#FDF5E6;
+  justify-content: center;
+}
+.ent-form{
+  align-self: flex-end;
+  background:white;
+  box-shadow: 0 0 6px 0 #34495e;
+  margin-top:10px;
+  margin-right:10px;
+  width:205px;
+  height:145px;
+  border-radius:10px;
+}
+.ent-form label{
+  font-size:16px;
+  font-weight: bold;
+  text-align:center;
+  margin-top:5px;
+  display:inline-block;
+  margin-left:5px;
+}
+input[type="text"],
+input[type="password"]{
+
+    padding: 2px 5px;
+    width: 80%;
+    height: 15px;
+    border: 1px solid #ccc;
+    margin-left:10px;
+    border-radius:5px;
+    margin-top:5px;
+}
+input[type="button"]{
+  border: none;
+    background: #2c3e50;
+    color: #fff;
+    border-radius:5px;
+    height:30px;
+    margin-left:20px;
+    text-align:center;
+    font-weight: bold;
+    font-size:12px;
+    margin-top:5px;
+}
+.content-image-box{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.content-image{
+  width:200px;
+  height:200px;
+  border:1px solid-black;
+  background:white;
+  margin-bottom: 10px;
+  background:url("IMG_3748.JPG") -50px 0px no-repeat;
+  background-size:cover;
+  background-clip: padding-box;
+}
+article{
+  padding:10px;
+  text-align: justify;
+}
+.column h1{
+  text-align:center;
+}
+p::first-letter{
+  padding-left: 20px;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}

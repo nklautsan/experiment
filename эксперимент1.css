@@ -1,0 +1,35 @@
+.header{
+  display:flex;
+  background:orange;
+}
+.one{
+  display:flex;
+  background:green;
+  flex-direction: column;
+}
+.body{
+  display:flex;
+  background:pink;
+  flex-direction:row;
+  min-width:720px;
+  min-height:1000px;
+  flex:1;
+}
+.footer{
+  display:flex;
+  background:yellow;
+
+}
+.content{
+order:2;
+flex:1;
+}
+.sidebar-first{
+  order:1;
+}
+.sidebar-second{
+order:3;
+}
+.sidebar{
+  flex:0 0 240px;
+}
